@@ -40,7 +40,7 @@
                   <label>Quantity:</label>
                 </div>
                 <div class="cell">
-                  <input type="number" v-model.number="inventory.quantity" />
+                  <input type="number" v-model.number="product.quantity" />
                 </div>
               </div>
             </form>
@@ -57,25 +57,11 @@
 </template>
 
 <script>
-import food from '../food.json'
+// import food from '../food.json'
 
 // prettier-ignore
 export default {
   name: 'Home',
-
-  data () {
-    return {
-      inventory: food,
-      cart: {
-        //
-      }
-    }
-  },
-  components: {},
-  methods: {
-    addToCart (type) {
-      this.cart[type] += this.inventory[type]
-    }
-  }
+  props: ['inventory']
 }
 </script>
