@@ -12,6 +12,11 @@
         <span>Past Orders</span>
       </router-link>
     </nav>
+    <router-link to="/" class="top-bar-cart-link">
+      <i class="icofont-cart-alt icofont-1x"></i>
+      <span>Cart (0)</span>
+    </router-link>
+
     <!-- <router-link @click="toggleSidebar" class="top-bar-cart-link">
       <i class="icofont-cart-alt icofont-1x"></i>
       <span>Cart ({{ totalQuantity }})</span>
