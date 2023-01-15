@@ -57,8 +57,6 @@
 </template>
 
 <script>
-// import food from '../food.json'
-
 // prettier-ignore
 export default {
   name: 'Home',

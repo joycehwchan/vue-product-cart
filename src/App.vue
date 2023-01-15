@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import Sidebar from '@/components/Sidebar.vue'
+import Sidebar from './components/Sidebar.vue'
 import food from './food.json'
 
 // prettier-ignore
